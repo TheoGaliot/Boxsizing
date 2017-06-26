@@ -4,6 +4,7 @@ border: 20px solid black;
 padding: 20px;
 margin: 20px;
 width: 80%;
+box-sizing: content-box;
 }
 
 .sizing {
@@ -12,4 +13,5 @@ width: 80%;
   padding: 20px;
   margin: 20px;
   width: 80%;
+  box-sizing: border-box;
 }
