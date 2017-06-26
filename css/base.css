@@ -5,7 +5,12 @@ padding: 20px;
 margin: 20px;
 width: 80%;
 box-sizing: content-box;
+text-align: left;
 
+}
+
+.fixed:hover{
+  border-color: #00FF7F;
 }
 
 .sizing {
@@ -15,8 +20,17 @@ box-sizing: content-box;
   margin: 20px;
   width: 80%;
   box-sizing: border-box;
+  text-align: left;
+}
+
+.sizing:hover {
+  border-color: #00FF7F;
 }
 
 header img {
 height: 120px;
+}
+
+.fixed p {
+  color: #222222;
 }
