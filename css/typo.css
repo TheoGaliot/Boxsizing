@@ -1,3 +1,16 @@
+@font-face {
+
+font-family: 'Spectral', serif;
+src: url(/home/popschool/Téléchargements/Spectral/Spectral-Bold.ttf);
+
+}
+
+@font-face {
+  font-family: 'Acme', sans-serif;
+  src: url(/home/popschool/Téléchargements/Acme/Acme-Regular.ttf);
+}
+
+
 h1 {
   font-family: 'Spectral', serif;
 
@@ -20,17 +33,6 @@ h2:first-letter {
   color: blue;
 }
 
-@font-face {
-
-font-family: 'Spectral', serif;
-src: url(../);
-
-}
-
-@font-face {
-  font-family: 'Acme', sans-serif;
-  src: url();
-}
 
 
 
