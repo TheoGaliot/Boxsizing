@@ -1,0 +1,15 @@
+.fixed {
+float :left;
+border: 20px solid black;
+padding: 20px;
+margin: 20px;
+width: 80%;
+}
+
+.sizing {
+  float: left;
+  border: 20px solid black;
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+}
