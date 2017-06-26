@@ -1,6 +1,6 @@
 .fixed {
 float :left;
-border: 20px solid black;
+border: 20px solid #4169E1;
 padding: 20px;
 margin: 20px;
 width: 80%;
@@ -9,7 +9,7 @@ box-sizing: content-box;
 
 .sizing {
   float: left;
-  border: 20px solid black;
+  border: 20px solid #DC143C ;
   padding: 20px;
   margin: 20px;
   width: 80%;
