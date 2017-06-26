@@ -12,6 +12,28 @@ h1::first-letter {
   color: Red;
 }
 
+h2 {
+  font-family: 'Spectral', serif;
+}
+
+h2:first-letter {
+  color: blue;
+}
+
+@font-face {
+
+font-family: 'Spectral', serif;
+src: url(../);
+
+}
+
+@font-face {
+  font-family: 'Acme', sans-serif;
+  src: url();
+}
+
+
+
 img {
 height: 150px;
 }
