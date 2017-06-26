@@ -5,6 +5,7 @@ padding: 20px;
 margin: 20px;
 width: 80%;
 box-sizing: content-box;
+
 }
 
 .sizing {
@@ -14,4 +15,8 @@ box-sizing: content-box;
   margin: 20px;
   width: 80%;
   box-sizing: border-box;
+}
+
+header img {
+height: 120px;
 }
