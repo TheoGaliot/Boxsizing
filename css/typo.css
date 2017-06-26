@@ -1,0 +1,17 @@
+h1 {
+  font-family: 'Spectral', serif;
+
+}
+
+p {
+  font-family: 'Acme', sans-serif;
+  width: 80em;
+}
+
+h1::first-letter {
+  color: Red;
+}
+
+img {
+height: 150px;
+}
