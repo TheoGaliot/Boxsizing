@@ -1,0 +1,106 @@
+body {
+  background-color: white;
+  width: 75em;
+  overflow-x:hidden;/* permet de cacher le surplus sur les cotés */
+  }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color:white ;
+  font-weight: bold;
+  height: 40px;
+  width: auto;
+}
+
+nav div {
+  color: black;
+}
+
+
+h1 {
+  font-family: 'Spectral', serif;
+}
+
+
+
+h1:first-letter {
+  color: #1e88e5;
+}
+
+p {
+  font-family: 'Acme', sans-serif;
+  width: 60em;
+}
+
+p:first-line {
+color: #534bae;
+  }
+
+  @media screen and (max-width: 1280px) {
+  p {
+    width: 350px;
+  }
+  }
+
+nav img{
+  background-color: white;
+  height: 75px;
+  margin-top: -15px;
+}
+
+nav div:hover {
+background-color: #F5F5DC;
+ }
+
+@media screen and (max-width: 1280px) {
+  nav{
+    flex-direction: line;
+    width: 320px;
+}
+
+}
+
+div {
+
+  padding: 5px;
+  text-align: center;
+  flex: 1 1 auto;
+}
+
+
+
+
+.chouette img {
+  height: 100%;
+
+}
+
+
+  @media screen and (max-width: 1280px) {
+
+  .chouette img{
+    width:300px;
+    height: 200px;
+    margin-right: 860px;
+
+}
+
+}
+
+.chouette p {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left:-280px;
+  margin-top: 0px;
+}
+
+
+
+
+@media screen and (max-width: 1280px) {
+.image{
+  margin-right: 850px;
+
+}
