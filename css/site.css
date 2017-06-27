@@ -21,6 +21,7 @@ nav div {
 
 h1 {
   font-family: 'Spectral', serif;
+  width: 100%;
 }
 
 
@@ -31,7 +32,7 @@ h1:first-letter {
 
 p {
   font-family: 'Acme', sans-serif;
-  width: 60em;
+  width: 100%;
 }
 
 p:first-line {
@@ -92,10 +93,15 @@ div {
 .chouette p {
   font-weight: bold;
   font-size: 30px;
-  margin-left:-280px;
+  margin-left:-10px;
   margin-top: 0px;
 }
 
+  @media screen and (max-width: 1280px) {
+    .chouette p {
+      padding-top: 30px;
+    }
+  }
 
 
 
